@@ -71,7 +71,6 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="989.6,2500.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -204,7 +203,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2811c077-9e2d-49de-bb86-8a9f0c164326" InformativeScreenshot="06ec15b74827e935759c2e66f84292d4" Selector="&lt;html app='chrome.exe' title='Invoice' /&gt;&lt;webctrl parentid='invoices' tag='A' aaname='                  Invoiceing System                                                                    ' innertext='                  Invoiceing System                                                                    ' title='Invoice' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2811c077-9e2d-49de-bb86-8a9f0c164326" InformativeScreenshot="06ec15b74827e935759c2e66f84292d4" Selector="&lt;webctrl parentid='invoices' aaname='                  Invoiceing System                                                                    ' innertext='                  Invoiceing System                                                                    ' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -226,7 +225,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4a72e385-c1db-4d44-9c6b-9d4418503a06" InformativeScreenshot="70370dde911be434584d27127c1624df" Selector="&lt;html app='chrome.exe' title='Dashboard' /&gt;&lt;webctrl aaname=' Add Invoice ' parentid='invoices' tag='A' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4a72e385-c1db-4d44-9c6b-9d4418503a06" InformativeScreenshot="70370dde911be434584d27127c1624df" Selector="&lt;webctrl aaname=' Add Invoice ' parentid='invoices' href='https://challenge.rpabotsworld.com/admin/invoices/add' innertext=' Add Invoice ' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
