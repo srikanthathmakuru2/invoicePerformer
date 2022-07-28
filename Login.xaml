@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>979.2,2565.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>979.2,2628</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
@@ -73,14 +73,14 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="989.6,2500.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap:VirtualizedContainerService.HintSize="989.6,2563.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="login workflow started" sap:VirtualizedContainerService.HintSize="948,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;login workflow started&quot;]" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="948,2142.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="948,2204.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -88,7 +88,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="911.2,1888" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="911.2,1950.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="username" />
             <Variable x:TypeArguments="ss:SecureString" Name="Password" />
@@ -101,18 +101,20 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="invoiceCredential" DisplayName="Get website Credential" FolderPath="[in_Config(&quot;assetfolder&quot;).ToString]" sap:VirtualizedContainerService.HintSize="869.6,183.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[Password]" Username="[username]" />
-          <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Chrome" DisplayName="open challenge browser" sap:VirtualizedContainerService.HintSize="869.6,1572" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[out_invoiceBrowser]" Url="[in_Config(&quot;WebUrl&quot;).ToString]">
+          <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Chrome" DisplayName="open challenge browser" sap:VirtualizedContainerService.HintSize="869.6,1634.4" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" UiBrowser="[out_invoiceBrowser]" Url="[in_Config(&quot;WebUrl&quot;).ToString]">
             <ui:OpenBrowser.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="836,1469.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="836,1532" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
+                  <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="794.4,22.4" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
                   <Sequence DisplayName="credentials sequence" sap:VirtualizedContainerService.HintSize="794.4,550.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
